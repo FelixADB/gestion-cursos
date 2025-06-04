@@ -8,4 +8,8 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    base: '/',
+    server: {
+        origin: 'https://gestion-cursos-production.up.railway.app',
+    },
 });
